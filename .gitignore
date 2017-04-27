@@ -1,0 +1,8 @@
+/out
+
+#Editors (Intellij)
+.idea/*
+*.iml
+.DS_Store
+*.iml
+
