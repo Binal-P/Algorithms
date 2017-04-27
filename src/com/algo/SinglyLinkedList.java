@@ -35,6 +35,17 @@ public class SinglyLinkedList<T> {
         }
     }
 
+    public int length() {
+        int length = 0;
+        Node current = head;
+         while(current != null)
+         {
+             length ++;
+             current = current.getNextRef();
+         }
+         return length;
+    }
+
     public void reverse(){
         Node prev = null;
         Node current = head;
